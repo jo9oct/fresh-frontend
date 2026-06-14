@@ -1,7 +1,7 @@
 
 import axios from "axios";
 
-const BASE_URL=import.meta.env.MODE === "development" ? "http://localhost:5000/api" : "/api"
+const BASE_URL=import.meta.env.MODE === "development" ? "https://fresh-backend-pgoh.onrender.com" : "/api"
 
 const api = axios.create({
     baseURL: BASE_URL, // Base URL for all API requests
