@@ -2,7 +2,6 @@ import { create } from "zustand";
 import api from "../lib/axios";
 import type { allQuestions } from "../types/Question";
 import axios from "axios";
-import toast from "react-hot-toast";
 
 interface QuestionStore {
   questionData: allQuestions[];
