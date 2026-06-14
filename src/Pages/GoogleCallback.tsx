@@ -9,7 +9,7 @@ const GoogleCallback = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/google/me", {
+        const res = await fetch("https://fresh-backend-pgoh.onrender.com/google/me", {
           method: "GET",
           credentials: "include", // send cookie
         });
