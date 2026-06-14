@@ -354,7 +354,7 @@ const UserLogin: React.FC = () => {
             <div className="divider">or sign in with</div>
 
             <button type="button" className="google-btn" onClick={() => {
-              window.location.href = "http://localhost:5000/api/google/google";
+              window.location.href = "https://fresh-backend-pgoh.onrender.com/google/google";
             }} disabled={isLoading || lockoutTime > 0}>
               <FontAwesomeIcon icon={faGoogle} className="google-icon" /> Continue with Google
             </button>
