@@ -3,7 +3,6 @@ import { create } from "zustand";
 import api from "../lib/axios";
 import type { Course,Chapter } from "../types/Course.ts";
 import axios from "axios";
-import toast from "react-hot-toast";
 
 interface ChapterStore {
   chapterData: Course[]; 
